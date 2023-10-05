@@ -13,7 +13,7 @@ public class HomePage {
     String url = "https://www.tobania.be/en-gb/";
 
     SelenideElement denyCookiesBtn = $("#CybotCookiebotDialogBodyButtonDecline");
-    SelenideElement searchIcon = $("button[aria-label='Search'] > span > svg");
+    SelenideElement searchIcon = $("#hs_cos_wrapper_Global_search_header_ > svg");
     SelenideElement searchField = $("input[name='term']");
 
     public void navigate() {
