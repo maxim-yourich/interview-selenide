@@ -8,6 +8,6 @@ import org.junit.jupiter.api.extension.ExtendWith;
 public class BaseTest {
     @BeforeAll
     public static void beforeAllTests() {
-        System.setProperty("selenide.browser", "firefox");
+        System.setProperty("selenide.browser", "Chrome");
     }
 }
